@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-card" class="card">
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please enter your details</p>
+            
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                    <small class="error-msg" id="user-error"></small>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••">
+                    <small class="error-msg" id="pass-error"></small>
+                </div>
+
+                <button type="submit" id="login-btn">Sign In</button>
+            </form>
+        </div>
+
+        <div id="welcome-page" class="card hidden">
+            <div class="success-icon">✓</div>
+            <h2>Login Successful!</h2>
+            <p>Welcome to your professional dashboard, <span id="display-user"></span>.</p>
+            <button onclick="location.reload()">Logout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
