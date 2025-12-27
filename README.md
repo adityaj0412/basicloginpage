@@ -62,7 +62,7 @@ Open a Pull Request.
 📄 License
 This project is open-source and available under the MIT License.
 
-👤 Contact
-adityaj0412 - GitHub Profile
+👤 Contact:
+ @adityaj0412 - GitHub Profile
 
 Project Link: https://github.com/adityaj0412/basicloginpage
