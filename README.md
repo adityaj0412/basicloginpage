@@ -63,6 +63,6 @@ Open a Pull Request.
 This project is open-source and available under the MIT License.
 
 👤 Contact
-Aditya J - GitHub Profile
+adityaj0412 - GitHub Profile
 
 Project Link: https://github.com/adityaj0412/basicloginpage
